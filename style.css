@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: deeppink;
+    text-shadow: 15px 15px 15px rgb(241, 233, 233);
+    background: linear-gradient(rgb(16, 199, 231), rgb(195, 213, 216))
+}
+#d1{
+    width: 100px;
+    height: 75%;
+    background-color: rgb(35, 133, 214);
+    color: rgb(23, 23, 177);
+    font-size: 25px;
+    border: 3px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    transform: rotate(20deg);
+}
+#d2{
+    width: 100px;
+    height: 75%;
+    background-color: rgb(24, 141, 187);
+    color: rgb(23, 23, 177);
+    font-size: 25px;
+    border: 3px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    transform:rotate(20deg) ;
+}
+#d3{
+    width: 100px;
+    height: 75%;
+    background-color: rgb(24, 141, 187);
+    color: rgb(23, 23, 177);
+    font-size: 25px;
+    border: 3px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    transform:rotate(20deg) ;  
+}
+#d4{
+    width: 150px;
+    height: 75%;
+    background-color: rgb(24, 141, 187);
+    color: rgb(23, 23, 177);
+    font-size: 25px;
+    border: 3px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-style: dashed;
+    
+    animation: animation 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes animation{
+    from{box-shadow: 10px 10px 10px rebeccapurple;}
+    to{box-shadow: 10px 10px 10px rgb(231, 16, 45);}
+
+    from{background-color: blue;}
+    to{background-color:10px 10px 10px ;}
+}
+img{
+    width:500px;
+    height: 75%;
+    background-color: rgb(24, 141, 187);
+    color: rgb(23, 23, 177);
+    font-size: 25px;
+    border: 3px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-style: dashed;
+    
+    animation: animation 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
